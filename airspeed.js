@@ -1,7 +1,7 @@
 [rewrite_local]
 ^https?:\/\/api\.express-api\.com\/v1\/connect.+$ url script-response-body https://raw.githubusercontent.com/huikml/js/main/airspeed.js
 [mitm] 
-hostname = *.express-api.*
+hostname = api.express-api.com
 *******************************
 Surge
 
