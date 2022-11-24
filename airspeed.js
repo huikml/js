@@ -12,8 +12,9 @@ Surge
 hostname = api.express-api.com
 
 *******************************/
-var body=$response.body;
-body = body.replace(/"type\":"\w+/g,'"type":"gold');
-body = body.replace(/"username\":"\w+/g,'"username":"jumnyliu');
-body = body.replace(/"expire\":\d+/g,'"expire":9648718129884');
-$done(body);
+
+var obj = JSON.parse($response.body);
+    obj.data.type= "gold;
+obj.data.username= "jumnyliu;
+obj.data.expire= 9648718129884;
+    $done({body: JSON.stringify(obj)});
