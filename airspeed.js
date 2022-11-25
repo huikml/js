@@ -10,7 +10,7 @@ Airspeed
 [rewrite_local]
 ^http[s]?:\/\/api.express-api.com\/v1\/device.+$ url script-response-body https://raw.githubusercontent.com/huikml/js/main/airspeed.js
 [mitm] 
-hostname = *.express-api.*
+hostname = api.express-api.com
 *******************************
 Surge
 
@@ -18,7 +18,7 @@ Surge
 ^http[s]?:\/\/api.express-api.com\/v1\/device.+$ requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/huikml/js/main/airspeed.js
 
 [MITM]
-hostname = *.express-api.*
+hostname = api.express-api.com
 
 *******************************/
 var obj = JSON.parse($response.body);
