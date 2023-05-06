@@ -11,8 +11,8 @@
 
 [rewrite_local]
 
-^https://api\.express-api\.com/v1/device url script-response-body airspeed.js
-^https://api\.express-api\.com/v1/connect url script-response-body airspeed.js
+^https://api\.express-api\.com/v1/device url script-response-body https://raw.githubusercontent.com/huikml/js/main/airspeed.js
+^https://api\.express-api\.com/v1/connect url script-response-body https://raw.githubusercontent.com/huikml/js/main/airspeed.js
 
 [mitm] 
 hostname = api.express-api.com
