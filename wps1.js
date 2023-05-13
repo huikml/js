@@ -1,3 +1,10 @@
+#!url=https://raw.githubusercontent.com/huikml/js/main/wps1.js
+#!name= WPS解锁会员
+#!desc=WPS解锁会员
+#!homepage=https://github.com/huikml/js
+#!author=huikml
+
+
 [Url Rewrite]
 
 
