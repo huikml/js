@@ -1,8 +1,6 @@
-#!url=https://raw.githubusercontent.com/huikml/js/main/airspeed1.js
-#!name= Airspeed
-#!desc=解锁Airspeed黄金会员
-#!homepage=https://github.com/huikml/js
-#!author=huikml
+#!name=解锁wps会员
+#!desc= 解锁wps
+
 
 [Url Rewrite]
 
