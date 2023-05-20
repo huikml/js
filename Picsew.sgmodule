@@ -1,0 +1,13 @@
+#!name= Picsew滚动截图+解锁订阅
+#!desc= Picsew滚动截图+解锁订阅
+
+
+[Url Rewrite]
+
+
+[Script]
+
+Picsew = type=http-response,pattern=^https:\/\/buy\.itunes\.apple\.com\/verifyReceipt,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/89996462/Quantumult-X/main/ycdz/Picsew.js
+
+[MITM]
+hostname = %APPEND% buy.itunes.apple.com
