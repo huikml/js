@@ -10,3 +10,5 @@ HOST-SUFFIX,sieintercept.qualrics.com,qatar
 HOST-SUFFIX,moi.gov.qa,qatar
 HOST-SUFFIX,muqeem.sa,qatar
 HOST-SUFFIX,elm.sa,qatar
+HOST-SUFFIX,uba.elm.sa,qatar
+HOST-SUFFIX,rum01.elm.sa,qatar
