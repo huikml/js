@@ -9,3 +9,4 @@ HOST-SUFFIX,qatarairways.com,qatar
 HOST-SUFFIX,sieintercept.qualrics.com,qatar
 HOST-SUFFIX,moi.gov.qa,qatar
 HOST-SUFFIX,muqeem.sa,qatar
+HOST-SUFFIX,elm.sa,qatar
