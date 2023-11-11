@@ -12,3 +12,4 @@ HOST-SUFFIX,muqeem.sa,qatar
 HOST-SUFFIX,elm.sa,qatar
 HOST-SUFFIX,uba.elm.sa,qatar
 HOST-SUFFIX,rum01.elm.sa,qatar
+HOST-SUFFIX,aemuat.qatarairways.com.qa
